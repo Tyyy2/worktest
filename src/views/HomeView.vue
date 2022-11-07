@@ -10,3 +10,10 @@ export default {
   components: { AllHeader },
 };
 </script>
+
+<style lang="scss">
+body{
+background-color: black;
+}
+
+</style>
