@@ -22,8 +22,10 @@
         <a href="/about" target="_blank">
           <li class="slide-btn-style slide-btn1">個人履歷</li></a
         >
-        <a href=""><li class="slide-btn-style slide-btn2">個人練習</li></a>
-        <a href="https://tyyy2.github.io/cake/" target="_blank"><li class="slide-btn-style slide-btn2">團體專題</li></a>
+        <a href=""><li class="slide-btn-style slide-btn2">協作筆記</li></a>
+        <a href="https://tyyy2.github.io/cake/" target="_blank"
+          ><li class="slide-btn-style slide-btn2">團體專題</li></a
+        >
       </ul>
     </div>
   </header>
@@ -112,13 +114,13 @@ $gray-5: rgb(80, 80, 80);
   49% {
     transform: translateX(-400px);
   }
-  50% {
+  60% {
     transform: translateX(0);
   }
-  53% {
+  63% {
     transform: translateX(-15px);
   }
-  58% {
+  68% {
     transform: translateX(0px);
   }
 }
@@ -184,7 +186,7 @@ header {
           padding-right: 10px;
           border-top-right-radius: 50px;
           border-bottom-right-radius: 50px;
-          animation: btn-go 6.5s linear forwards;
+          animation: btn-go 6.5s ease-in forwards;
 
           &:hover {
             background: linear-gradient(to left, rgb(192, 191, 191), white 20%);
