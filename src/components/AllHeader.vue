@@ -22,7 +22,7 @@
         <a href="/about" target="_blank">
           <li class="slide-btn-style slide-btn1">個人履歷</li></a
         >
-        <a href=""><li class="slide-btn-style slide-btn2">協作筆記</li></a>
+        <a href="https://tyyy2.github.io/note/"><li class="slide-btn-style slide-btn2">協作筆記</li></a>
         <a href="https://tyyy2.github.io/cake/" target="_blank"
           ><li class="slide-btn-style slide-btn2">團體專題</li></a
         >

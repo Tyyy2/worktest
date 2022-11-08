@@ -2,22 +2,38 @@
   <AllHeader></AllHeader>
   <div class="card-area">
     <div class="card-container">
-      <div class="card1 card-style">
-        <div class="practice-img"></div>
-        <div class="practice-name">Microsoft網站仿切</div>
-      </div>
-      <div class="card2 card-style">
-        <div class="practice-img"></div>
-        <div class="practice-name">BMI計算機</div>
-      </div>
-      <div class="card3 card-style">
-        <div class="practice-img"></div>
-        <div class="practice-name">色弱遊戲</div>
-      </div>
-      <div class="card4 card-style">
-        <div class="practice-img"></div>
-        <div class="practice-name">天氣卡片API串接</div>
-      </div>
+      <a href="https://tyyy2.github.io/Microsoft/"
+        ><div class="card1 card-style">
+          <div class="practice-img">
+            <img src="@/assets/img/microsoft.png" alt="" />
+          </div>
+          <div class="practice-name">Microsoft網站仿切</div>
+        </div>
+      </a>
+      <a href="https://tyyy2.github.io/BMI/"
+        ><div class="card2 card-style">
+          <div class="practice-img">
+            <img src="@/assets/img/BMI.png" alt="" />
+          </div>
+          <div class="practice-name">BMI計算機</div>
+        </div>
+      </a>
+      <a href="https://tyyy2.github.io/game/"
+        ><div class="card3 card-style">
+          <div class="practice-img">
+            <img src="@/assets/img/game.png" alt="" />
+          </div>
+          <div class="practice-name">色弱遊戲</div>
+        </div>
+      </a>
+      <a href="https://tyyy2.github.io/weather/"
+        ><div class="card4 card-style">
+          <div class="practice-img">
+            <img src="@/assets/img/weather.png" alt="" />
+          </div>
+          <div class="practice-name">天氣卡片API串接</div>
+        </div>
+      </a>
     </div>
   </div>
 </template>
@@ -105,17 +121,27 @@ body {
     //background-color: $gray-1;
     @include flex-row(space-around, space-between);
     flex-wrap: wrap;
-    .card-style {
+    a {
       @include size(45%, 45%);
       border-radius: 20px;
-      background-color: $gray-2;
+      background-color: white;
       @include flex-col(center, space-between);
-      .practice-img {
-        @include size(100%, 80%);
-      }
-      .practice-name {
-        @include size(100%, 15%);
-        @include font(20px, bold, none, black);
+      text-decoration: none;
+      .card-style {
+        @include size(100%, 100%);
+        border-radius: 20px;
+        @include flex-col(center, space-between);
+        .practice-img {
+          @include size(100%, 80%);
+          img {
+            @include size(100%, 100%);
+            object-fit: cover;
+          }
+        }
+        .practice-name {
+          @include size(100%, 15%);
+          @include font(20px, bold, none, black);
+        }
       }
     }
   }
