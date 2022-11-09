@@ -19,10 +19,10 @@
         </div>
       </div>
       <ul class="slide-list">
-        <router-link to="/about" target="_blank"
-          ><li class="slide-btn-style slide-btn1">個人履歷</li></router-link
+        <router-link to="/about"
+          ><li class="slide-btn-style slide-btn1">hihihihi</li></router-link
         >
-       
+
         <a href="https://tyyy2.github.io/note/"
           ><li class="slide-btn-style slide-btn2">協作筆記</li></a
         >
