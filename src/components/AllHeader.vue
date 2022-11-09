@@ -20,7 +20,7 @@
       </div>
       <ul class="slide-list">
         <router-link to="/about"
-          ><li class="slide-btn-style slide-btn1">hihihihi</li></router-link
+          ><li class="slide-btn-style slide-btn1">個人履歷</li></router-link
         >
 
         <a href="https://tyyy2.github.io/note/"
