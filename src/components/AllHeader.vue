@@ -26,7 +26,7 @@
         <a href="https://tyyy2.github.io/note/"
           ><li class="slide-btn-style slide-btn2">協作筆記</li></a
         >
-        <a href="https://tyyy2.github.io/cake/" target="_blank"
+        <a href="https://111-08-fcu-dessertcave.dev-hub.io/" target="_blank"
           ><li class="slide-btn-style slide-btn2">團體專題</li></a
         >
       </ul>
